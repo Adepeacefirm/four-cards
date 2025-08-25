@@ -1,0 +1,34 @@
+@media (min-width: 769px) {
+
+    #our {
+        width: 55%;
+        margin-inline: auto;
+    }
+
+
+    .mobile-view {
+        display: none;
+    }
+    .desktop-view {
+        display: block;
+    }
+
+    .cards-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .cards {
+        padding-bottom: 2rem;
+    }
+
+    .karma {
+        padding-bottom: 4rem;
+    }
+    .team {
+        padding-bottom: 4rem;
+    }
+}
